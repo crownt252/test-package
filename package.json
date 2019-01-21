@@ -1,0 +1,32 @@
+{
+  "name": "test-lib2",
+  "version": "1.0.0",
+  "description": "test package",
+  "main": "dist/lib2.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crownt252/test-package"
+  },
+  "author": "tomas",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-plugin-transform-es2015-block-scoping": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "d3": "^4.13.0",
+    "eslint": "^5.11.0",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  }
+}

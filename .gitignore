@@ -1,0 +1,8 @@
+*.log
+/.idea
+.editorconfig
+node_modules
+/.sass-cache
+npm-debug.log
+Thumbs.db
+package-lock.json
